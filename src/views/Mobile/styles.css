@@ -1,0 +1,25 @@
+.mobile-card {
+  width: calc(33.3% - 2px);
+  display: inline-block;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 1px;
+  background-color: silver;
+}
+
+hr {
+  width: 60%;
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-card {
+    width: calc(50% - 2px);
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .mobile-card {
+    width: calc(100% - 2px);
+  }
+}
